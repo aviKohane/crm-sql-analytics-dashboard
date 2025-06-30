@@ -39,7 +39,7 @@ Each KPI query is available in the file: `kpis.sql`.
 
 1. Import all `.sql` files into your MySQL environment (Workbench, CLI, or DBeaver).
 2. Run the scripts in this order:
-   - `schema.sql`
+   - `create_tables.sql`
    - `seed_users.sql`
    - `seed_products.sql`
    - `seed_transactions.sql`
