@@ -26,7 +26,6 @@ ORDER BY total_quantity_sold DESC
 LIMIT 1;
 
 -- Best-selling product with product name
--- Best-selling product with product name
 SELECT 
   p.product_name,
   SUM(ti.quantity) AS total_quantity_sold
